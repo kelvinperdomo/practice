@@ -1,0 +1,81 @@
+body {
+  background-color: #6cb14f;
+  margin: 0;
+}
+.login-form {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+.card {
+  background: white;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 8px 6px 10px #31571f;
+  max-width: 320px;
+  width: 100%;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*vh=viewport height*/
+}
+.sign-up {
+  color: #a39292;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+  text-align: center;
+  padding-top: 12px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+~ button {
+  background-color: #8ab86a;
+  color: white;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.container {
+  padding: 16px;
+}
+.flex {
+  display: flex;
+}
+.create {
+  color: #6cb14f;
+}
+.flex div {
+  padding: 0.2em;
+}
+a:link {
+  color: #6cb14f;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(119, 214, 119);
+}
+a:hover {
+  color: rgb(64, 209, 64);
+}
+a:active {
+  color: indigo;
+}
+@media screen and (max-width: 420px) {
+  .card {
+    max-width: 90%;
+  }
+}
