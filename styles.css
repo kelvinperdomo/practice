@@ -55,9 +55,6 @@ button {
 .flex {
   display: flex;
 }
-.create {
-  color: #6cb14f;
-}
 .flex div {
   padding: 0.2em;
 }
