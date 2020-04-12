@@ -52,12 +52,6 @@ button {
 .container {
   padding: 16px;
 }
-.flex {
-  display: flex;
-}
-.flex div {
-  padding: 0.2em;
-}
 a:link {
   color: #6cb14f;
   text-decoration: none;
