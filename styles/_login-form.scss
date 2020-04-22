@@ -1,0 +1,13 @@
+.login-form {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  input {
+    padding: 16px;
+    margin: 8px 0;
+    border: 0px;
+    background: #f4f4f4;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+}

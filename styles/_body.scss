@@ -1,0 +1,11 @@
+@import "./variables";
+
+body {
+  background: #6cb14f;
+  margin: 0;
+  .fullpage-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+}

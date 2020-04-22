@@ -1,0 +1,13 @@
+.main-header {
+  background-color: coral;
+  text-align: left;
+  font-family: $fontFamily;
+  font-size: 20px;
+  font-weight: bold;
+  color: $textColor;
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+}

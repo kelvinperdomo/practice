@@ -3,30 +3,42 @@
   <head>
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <title>Login</title>
-    <link rel="stylesheet" />
-    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div class="flex-center">
-      <div class="card">
+    <div class="fullpage-container">
+      <header class="main-header">
         <div class="container">
-          <form class="login-form" action="/action_page.php" method="post">
-            <input type="text" placeholder="username" name="uname" required />
-            <input type="password" placeholder="password" name="psw" required />
-            <button type="submit">LOGIN</button>
-            <div class="sign-up">
-              <span>
-                Not registered?
-              </span>
-              <span>
-                <a href="https://google.com" target="_blank">
-                  Create an account</a
-                >
-              </span>
-            </div>
-          </form>
+          <h1>Welcome to my website</h1>
+        </div>
+      </header>
+      <div class="flex-center">
+        <div class="card">
+          <div class="container">
+            <form class="login-form" action="/action_page.php" method="post">
+              <input type="text" placeholder="username" name="uname" required />
+              <input
+                type="password"
+                placeholder="password"
+                name="psw"
+                required
+              />
+              <button type="submit">LOGIN</button>
+              <div class="sign-up">
+                <span>
+                  Not registered?
+                </span>
+                <span>
+                  <a href="https://google.com" target="_blank">
+                    Create an account</a
+                  >
+                </span>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+      <footer class="main-footer">Copyright &copy; 2020 Perdomo</footer>
     </div>
   </body>
 </html>
